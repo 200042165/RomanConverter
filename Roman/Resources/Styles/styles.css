@@ -1,0 +1,19 @@
+/* Style for the convert button */
+.convertButton {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+ 
+/* Style for the entry field */
+.entry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

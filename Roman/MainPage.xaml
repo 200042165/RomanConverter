@@ -1,0 +1,29 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Roman.MainPage">
+
+
+
+    <!-- Add the ContentPage.Resources here -->
+    <ContentPage.Resources>
+        <StyleSheet Source="Resources/Styles/styles.css" />
+    </ContentPage.Resources>
+    
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <!-- Number Entry -->
+        <Entry x:Name="NumberEntry"
+               Placeholder="Enter a number"
+               Keyboard="Numeric"
+               StyleClass="entry" />
+
+        <!-- Convert Button -->
+        <Button x:Name="ConvertButton"
+                Text="Convert to Roman"
+                Clicked="OnConvertClicked"
+                StyleClass="convertButton" />
+
+        <!-- Result Label -->
+        <Label x:Name="ResultLabel"
+               FontSize="24" />
+    </VerticalStackLayout>
+</ContentPage>
